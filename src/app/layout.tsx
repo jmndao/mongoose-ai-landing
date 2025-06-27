@@ -111,7 +111,7 @@ export default function RootLayout({
                 url: "https://github.com/jmndao",
               },
               downloadUrl: "https://www.npmjs.com/package/@jmndao/mongoose-ai",
-              softwareVersion: "1.3.0",
+              softwareVersion: "1.3.4",
               datePublished: "2024",
               license: "https://opensource.org/licenses/MIT",
               keywords: [
