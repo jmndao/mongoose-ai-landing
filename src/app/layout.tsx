@@ -53,11 +53,11 @@ export const metadata: Metadata = {
     description:
       "AI-powered Mongoose plugin with intelligent summarization, semantic search, and universal function calling. Built for production with TypeScript support.",
     type: "website",
-    url: "https://mongoose-ai.dev",
+    url: "https://mongoose-ai.vercel.app",
     siteName: "mongoose-ai",
     images: [
       {
-        url: "https://mongoose-ai.dev/og-image.png",
+        url: "https://mongoose-ai.vercel.app/og-image.png",
         width: 1200,
         height: 630,
         alt: "mongoose-ai - AI-Powered MongoDB Plugin",
@@ -70,10 +70,10 @@ export const metadata: Metadata = {
     description:
       "Add AI powers to your Mongoose schemas with auto-summarization, semantic search, and intelligent function calling.",
     creator: "@jmndao",
-    images: ["https://mongoose-ai.dev/twitter-card.png"],
+    images: ["https://mongoose-ai.vercel.app/twitter-card.png"],
   },
   alternates: {
-    canonical: "https://mongoose-ai.dev",
+    canonical: "https://mongoose-ai.vercel.app",
   },
   other: {
     "application-name": "mongoose-ai",
