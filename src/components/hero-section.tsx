@@ -10,7 +10,7 @@ export default function HeroSection() {
             <div className="flex items-center space-x-3 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-full px-6 py-3">
               <Sparkles className="w-5 h-5 text-blue-400" />
               <span className="text-blue-300 font-medium">
-                Introducing Universal Function Calling
+                AI + MongoDB + Function Calling + Vector Search
               </span>
               <ArrowRight className="w-4 h-4 text-blue-400" />
             </div>
@@ -18,18 +18,19 @@ export default function HeroSection() {
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-tight">
             <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">
-              Intelligence
+              AI-Powered
             </span>
             <br />
-            <span className="text-white">That Acts</span>
+            <span className="text-white">Mongoose Plugin</span>
           </h1>
 
           <p className="text-xl md:text-2xl lg:text-3xl text-slate-300 mb-12 max-w-5xl mx-auto leading-relaxed font-light text-balance">
-            Transform your MongoDB documents with AI that doesn&apos;t just
-            analyze—
-            <span className="text-blue-400 font-medium"> it takes action</span>.
-            Built for production with universal function calling for Mongoose
-            schemas.
+            Add intelligent document processing to your Mongoose schemas.
+            <span className="text-blue-400 font-medium">
+              {" "}
+              Auto-summarization, semantic search, and function calling
+            </span>{" "}
+            with OpenAI, Anthropic, and local LLMs.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">

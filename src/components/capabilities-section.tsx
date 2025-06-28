@@ -11,51 +11,51 @@ interface Capability {
 const capabilities: Capability[] = [
   {
     icon: <Sparkles className="w-8 h-8" />,
-    title: "Universal Function Calling",
+    title: "Auto-Summarization",
     description:
-      "Revolutionary architecture that adds intelligent automation to any model type. Not limited to specific use cases.",
-    impact: "Transform static analysis into dynamic action",
-    highlight: "Game Changer",
+      "Automatically generate intelligent summaries when documents are saved. Works with any text content in your schemas.",
+    impact: "Eliminate manual content analysis",
+    highlight: "Core Feature",
   },
   {
     icon: <Brain className="w-8 h-8" />,
-    title: "Multi-Provider Intelligence",
+    title: "Function Calling",
     description:
-      "Seamlessly work with OpenAI and Anthropic. Switch providers without changing your code architecture.",
-    impact: "Future-proof your AI integrations",
-    highlight: "Production Ready",
-  },
-  {
-    icon: <Shield className="w-8 h-8" />,
-    title: "Zero Breaking Changes",
-    description:
-      "100% backward compatibility guaranteed. Upgrade confidently without touching existing implementations.",
-    impact: "Safe adoption for production systems",
-    highlight: "Production Safe",
-  },
-  {
-    icon: <Zap className="w-8 h-8" />,
-    title: "Performance Optimized",
-    description:
-      "Built for scale with intelligent caching, retry logic, and cost optimization. Handle millions of documents.",
-    impact: "99.7% faster than manual processing",
-    highlight: "High Performance",
+      "AI automatically fills fields, classifies content, scores documents, and manages tags based on your business logic.",
+    impact: "Automated document classification",
+    highlight: "Smart Actions",
   },
   {
     icon: <Database className="w-8 h-8" />,
-    title: "Native MongoDB Integration",
+    title: "Semantic Search",
     description:
-      "Deep integration with Mongoose. Works with your existing schemas, queries, and database operations.",
-    impact: "No infrastructure changes required",
-    highlight: "Seamless",
+      "Search documents by meaning with vector embeddings. Includes MongoDB Atlas Vector Search support for production scale.",
+    impact: "10-3000x faster than traditional search",
+    highlight: "Vector Powered",
+  },
+  {
+    icon: <Shield className="w-8 h-8" />,
+    title: "Multi-Provider Support",
+    description:
+      "Switch between OpenAI, Anthropic, and local Ollama models. Same API, different capabilities and cost structures.",
+    impact: "Flexibility and cost optimization",
+    highlight: "Provider Choice",
+  },
+  {
+    icon: <Zap className="w-8 h-8" />,
+    title: "Production Ready",
+    description:
+      "Built-in retry logic, error handling, rate limiting, and cost estimation. Scales from development to enterprise.",
+    impact: "Ready for production workloads",
+    highlight: "Enterprise Grade",
   },
   {
     icon: <Settings className="w-8 h-8" />,
-    title: "Developer Experience",
+    title: "TypeScript Native",
     description:
-      "TypeScript-first with intelligent autocomplete, comprehensive error handling, and extensive documentation.",
-    impact: "Reduce development time by 80%",
-    highlight: "DX Focused",
+      "Full TypeScript support with intelligent autocomplete, type safety, and comprehensive error handling.",
+    impact: "Superior developer experience",
+    highlight: "Type Safe",
   },
 ];
 
@@ -65,10 +65,11 @@ export default function CapabilitiesSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8">
-            Revolutionary Capabilities
+            Core Capabilities
           </h2>
           <p className="text-xl md:text-2xl text-slate-300 max-w-4xl mx-auto font-light text-balance">
-            Enterprise-grade AI infrastructure that scales with your ambitions
+            Everything you need to add intelligent document processing to your
+            MongoDB applications
           </p>
         </div>
 

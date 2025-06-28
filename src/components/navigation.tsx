@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { getGitHubVersion } from "@/lib/version";
 
 export default function Navigation() {
-  const [version, setVersion] = useState("1.3.4");
+  const [version, setVersion] = useState("1.4.0");
 
   useEffect(() => {
     getGitHubVersion().then(setVersion);

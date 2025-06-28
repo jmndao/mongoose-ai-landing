@@ -6,24 +6,24 @@ interface StatProps {
 
 const performanceStats: StatProps[] = [
   {
-    number: "99.7%",
-    label: "Faster Processing",
-    description: "vs manual analysis",
+    number: "3",
+    label: "AI Providers",
+    description: "OpenAI, Anthropic, Ollama",
   },
   {
-    number: "38/min",
-    label: "Document Throughput",
-    description: "intelligent processing",
+    number: "43+",
+    label: "Docs/Min",
+    description: "processing throughput",
   },
   {
-    number: "$0.0003",
-    label: "Cost Per Document",
-    description: "optimized pricing",
+    number: "$0.42",
+    label: "Per 1K Docs",
+    description: "with cloud providers",
   },
   {
-    number: "100%",
-    label: "Backward Compatible",
-    description: "zero breaking changes",
+    number: "$0.00",
+    label: "With Ollama",
+    description: "local processing",
   },
 ];
 
